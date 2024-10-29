@@ -98,15 +98,36 @@
 //     return 0;
 // }
 
-int main(){
-    int n;
-    printf("Enter a value: ");
-    scanf("%d", &n);
-    int sum = 0;
-    for(int i = 1;  i <= 10;  i++){
+// int main(){
+//     int n;
+//     printf("Enter a value: ");
+//     scanf("%d", &n);
+//     int sum = 0;
+//     for(int i = 1;  i <= 10;  i++){
        
-        printf("%d \n",n * i);
-    }
+//         printf("%d \n",n * i);
+//     }
  
-    return 0;
+//     return 0;
+// }
+
+// int main(){
+//     int n;
+//     do{
+//         printf("Enter a number: ");
+//         scanf("%d", &n);
+//         printf("%d \n",n);
+//         if(n %2 == 0){
+//             break;
+//         }
+//     }while(1);
+//     return 0;
+//     }
+
+
+int main (){ 
+
+    int n;   
+    return 0; 
+
 }

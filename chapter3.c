@@ -56,17 +56,28 @@
 
 } */
 
+// int main(){
+//     int Marks;
+//     printf("Enter your marks: ");
+//     scanf("%d", &Marks);
+//     if(Marks <= 30){
+//       printf("Fail \n");
+//     }else if (Marks > 100){
+//       printf("Invalid marks \n");
+//     }else{
+//       printf("Pass \n");
+//     }
+//
+//     return 0;
+// }
+
 int main(){
-    int Marks;
-    printf("Enter your marks: ");
-    scanf("%d", &Marks);
-    if(Marks <= 30){
-      printf("Fail \n");
-    }else if (Marks > 100){
-      printf("Invalid marks \n");
-    }else{
-      printf("Pass \n");
+for(int i = 1; i <= 5; i++){
+    if(i==3){
+    break;
     }
-    
-    return 0;
+    printf("%d \n", i);
+}
+printf("end");
+return 0;
 }
